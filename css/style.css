@@ -304,20 +304,24 @@ header .eyecare {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     background-color: var(--main-color);
 }
 
 .carousel-caption {
     position: absolute;
     right: 15%;
-    top: 250px;
+    top: 100%;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     text-align: center;
 }
-
+/* @media screen and (max-width:767px) {
+    .carousel-caption {
+        top: 200px;
+    }
+} */
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -344,6 +348,9 @@ header .eyecare {
 
 .carousel-indicators .active {
     background-color: #fff;
+}
+.Our-People{
+    width: 80% !important;
 }
 
 /******** End Carousel ********/

@@ -442,23 +442,33 @@ header#Doctors {
     background-color: rgba(0, 0, 0, 0.644);
     background-blend-mode: overlay;
     background-attachment: fixed;
-    min-height: 100vh;
+    min-height: 60vh;
     overflow: hidden;
 }
-
+@media screen and (max-width:767px) {
+    #About,
+header#contact-us,
+header#Services,
+header#Gallery-page,
+header#Doctors {
+    min-height: 500px;
+}
+}
 .Breadcramb-parent {
     width: 100%;
-    position: relative;
     color: #fff;
 }
 
 .Breadcramb {
     background-color: transparent;
-    position: absolute;
-    left: 45%;
-    top: 40vh;
+    transform: translate(45%,100%);
 }
-
+@media screen and (max-width:767px) {
+    .Breadcramb {
+        background-color: transparent;
+        transform: translate(25%,25%);
+    }
+}
 /******** End Background & Breadcrumb  For Other Pages *********/
 
 .form-floating textarea {

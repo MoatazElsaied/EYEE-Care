@@ -213,8 +213,14 @@ header .eyecare {
 #Search:target {
     display: block;
 }
-
-
+header .paragraph{
+    width: 50% !important;
+}
+@media screen and (max-width:767px) {
+    header .paragraph{
+        width: 100% !important;
+    }
+}
 /******** End Header  ********/
 /******** Start About-eye  ********/
 #About-eye {

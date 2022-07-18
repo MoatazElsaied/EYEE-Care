@@ -276,7 +276,8 @@ header .eyecare {
     width: 100% !important;
 }
 
-#Facilities .certificates .cer {
+#Facilities .certificates .certificate {
+    width: 50% !important;
     position: absolute;
     left: -60px;
     bottom: -30px;
@@ -288,10 +289,11 @@ header .eyecare {
         width: 100% !important;
     }
 
-    #Facilities .certificates .cer {
+    #Facilities .certificates .certificate {
         position: unset;
-        width: 100%;
-
+        width: 80% !important;
+        margin: auto;
+        padding: 10px;
     }
 
 }

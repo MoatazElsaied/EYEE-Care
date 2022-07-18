@@ -126,7 +126,7 @@
 .custom-btn:hover::before {
     left: -100%;
 }
-/* #preloader{
+#preloader{
     background:  url(../images/Spinner-1s-98px.gif) no-repeat center/10%;
     background-color: rgba(0, 0, 0, 0.788);
     background-blend-mode: screen;
@@ -135,7 +135,7 @@
     position: fixed;
     z-index: 100;
     top: 0;
-   }  */
+   } 
 /******** Start Header  ********/
 header {
     background: url(../images/Header.jpg) no-repeat center/cover;
@@ -203,6 +203,7 @@ header .eyecare {
     left: 50%;
     transform: translate(-50%);
     width: 80%;
+    z-index: 11111;
 }
 
 #Search i {
